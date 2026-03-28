@@ -1,1 +1,8 @@
 note.txt
+.env
+
+.vscode/
+
+*.log
+
+node_modules/
