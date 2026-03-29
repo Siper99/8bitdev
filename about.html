@@ -138,6 +138,29 @@
       </div>
     </div>
 
+    <!-- Newsletter Section -->
+    <div class="newsletter-section">
+      <div class="newsletter-container">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest retro gaming news delivered to your inbox every week!</p>
+        <form class="newsletter-big-form" id="newsletterForm">
+          <input type="email" id="newsletterEmail" placeholder="Enter your email address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+        <p class="newsletter-success" id="newsletterSuccess">
+          Email has been sent! Thank you for subscribing.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        this.style.display = 'none';
+        document.getElementById('newsletterSuccess').style.display = 'block';
+      });
+    </script>
+
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-brand">
