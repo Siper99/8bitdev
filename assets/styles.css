@@ -18,13 +18,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Inter", sans-serif;
   background: var(--retro-white);
   min-height: 100vh;
   color: var(--retro-grey);
-  line-height: 1.6;
+  line-height: 1.8;
 }
+
 /* Headings */
 h1,
 h2,
@@ -132,7 +134,8 @@ h6 {
 }
 
 .blog-section {
-  min-width: 0; /* Prevents grid overflow */
+  min-width: 0;
+  /* Prevents grid overflow */
 }
 
 /* Sidebar Section */
@@ -867,7 +870,8 @@ h6 {
   }
 
   .sidebar-section {
-    order: -1; /* Move sidebar above blog content on mobile */
+    order: -1;
+    /* Move sidebar above blog content on mobile */
   }
 
   .sidebar-widget {
