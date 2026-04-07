@@ -10,6 +10,8 @@
   --retro-white: #ffffff;
   --retro-shadow: rgba(42, 42, 42, 0.3);
   --retro-letter-spacing: 2px;
+  /* storefront accent color — practice changing this */
+  --store-accent: #1565c0;
 }
 
 /* Global styles */
